@@ -1,0 +1,2 @@
+# fingoCarousel
+Carousel Plugin
