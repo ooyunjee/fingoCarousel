@@ -13,7 +13,7 @@ var defaults = {
     'col': 1,
     'row': 1,
     'infinite': true,
-    'index': null
+    'index': 0
   };
 ```
 
@@ -27,6 +27,7 @@ var defaults = {
 - infinite: infinite carousel or not(true or false)
 - index: index of active tabpanel
 
+## 
 **Markup**
 
 ```html
@@ -38,7 +39,7 @@ var defaults = {
   </ul>
   <div>
     <figure>
-      <img src="/img" alt="carousel 1">
+      <img src="/img" alt="carousel 1">
     </figure>
     <figure>
       <img src="/img" alt="carousel 1">
