@@ -27,7 +27,7 @@ var defaults = {
 - infinite: infinite carousel or not(true or false)
 - index: index of active tabpanel
 
-## 
+##시작하기
 **Markup**
 
 ```html
