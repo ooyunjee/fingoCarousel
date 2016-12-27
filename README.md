@@ -41,6 +41,7 @@ var defaults = {
 ```
 
 **Markup**
+- 배경이 아닌 이미지에는 icon class를 넣어주어야 한다.   
 
 ```html
 <div id="fingoCarousel">
