@@ -52,12 +52,13 @@ var defaults = {
   <div>
     <figure>
       <img src="/img" alt="carousel 1">
+      <img src="/img/icon.svg" class="icon">
     </figure>
     <figure>
-      <img src="/img" alt="carousel 1">
+      <img src="/img" alt="carousel 2">
     </figure>
     <figure>
-      <img src="/img" alt="carousel 1">
+      <img src="/img" alt="carousel 3">
     </figure>
     ...
   </div>
