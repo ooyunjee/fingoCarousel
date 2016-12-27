@@ -33,11 +33,11 @@ var defaults = {
 ##시작하기
 ```html
 <!-- Basic Stylesheet -->
-<link rel="stylesheet" href="css/fingoCarousel.css">
+<link rel="stylesheet" href="css/fingo.carousel.min.css">
 <!-- include radioClass -->
 <script src="js/jquery.radioClass.js" charset="utf-8"></script>
 <!-- include fingoCarousel -->
-<script src="js/fingoCarousel.js"></script>
+<script src="js/fingo.carousel.js"></script>
 ```
 
 **Markup**
