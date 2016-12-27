@@ -3,7 +3,10 @@
 
 ---
 
-**Default**
+**Features**
+- responsive
+
+**Default Options**
 ```js
 var defaults = {
     'width': 1240,
@@ -13,7 +16,7 @@ var defaults = {
     'col': 1,
     'row': 1,
     'infinite': true,
-    'index': null
+    'index': 0
   };
 ```
 
@@ -27,6 +30,16 @@ var defaults = {
 - infinite: infinite carousel or not(true or false)
 - index: index of active tabpanel
 
+##시작하기
+```html
+<!-- Basic Stylesheet -->
+<link rel="stylesheet" href="css/fingoCarousel.css">
+<!-- include radioClass -->
+<script src="js/jquery.radioClass.js" charset="utf-8"></script>
+<!-- include fingoCarousel -->
+<script src="js/fingoCarousel.js"></script>
+```
+
 **Markup**
 
 ```html
@@ -38,7 +51,7 @@ var defaults = {
   </ul>
   <div>
     <figure>
-      <img src="/img" alt="carousel 1">
+      <img src="/img" alt="carousel 1">
     </figure>
     <figure>
       <img src="/img" alt="carousel 1">
@@ -46,12 +59,18 @@ var defaults = {
     <figure>
       <img src="/img" alt="carousel 1">
     </figure>
+    ...
   </div>
 </div>
 ```
 
 **JavaScript**
+Call the fingoCarousel plugin
 ```js
+// Default
+var $carousel = $('#fingocarousel').fingoCarousel();
+
+// Custom Options
 var $carousel = $('#fingocarousel').fingoCarousel({
     'width': 1640,
     'height': 850,
